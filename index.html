@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Counter app</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>Event Attendance</h1>
+      <h2 id="count-el">0</h2>
+      <div class="button-container">
+        <button id="increment-btn" onclick="increment()">INCREMENT</button>
+        <button id="save-btn" onclick="save()">SAVE</button>
+      </div>
+      <p id="save-el">Previous entries:</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
